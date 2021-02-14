@@ -17,7 +17,7 @@ public class ItemController : MonoBehaviour
     void Update()
     {
         // unityちゃんが通り過ぎて画面外に出たオブジェクトを破棄する
-        if (this.gameObject.transform.position.z < unitychan.transform.position.z - 10f)
+        if (this.gameObject.transform.position.z < unitychan.transform.position.z - 5f)
         {
             Destroy(gameObject);
         }
